@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor Product Preview Card Component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article class="product">
+      <picture class="product-image">
+        <source srcset="images/desktop.jpg" media="(min-width: 1440px)" />
+        <img src="images/mobile.jpg" alt="Gabrielle Esscence Eau De Parfum" />
+      </picture>
+
+      <div class="product-info">
+        <h3 class="product-category">Perfume</h3>
+
+        <h2 class="product-name">Gabrielle Esscence Eau De Parfum</h2>
+
+        <p class="product-description">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+
+        <div class="product-price">
+          <span>$144.99</span>
+
+          <small>
+            <s>$169.99</s>
+          </small>
+        </div>
+
+        <button type="button" class="product-cta">
+          <img src="images/icon-cart.svg" alt="" />Add to Cart
+        </button>
+      </div>
+    </article>
+  </body>
+</html>
